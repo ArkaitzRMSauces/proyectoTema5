@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Departamentos>
+  <Departamento>
+    <Codigo>BIO</Codigo>
+    <Descripcion>Departamento de Biotecnologia</Descripcion>
+    <FechaBaja/>
+    <VolumenNegocio>50</VolumenNegocio>
+  </Departamento>
+  <Departamento>
+    <Codigo>MAT</Codigo>
+    <Descripcion>Departamento de matematicas</Descripcion>
+    <FechaBaja/>
+    <VolumenNegocio>90</VolumenNegocio>
+  </Departamento>
+  <Departamento>
+    <Codigo>T1</Codigo>
+    <Descripcion>T1</Descripcion>
+    <FechaBaja/>
+    <VolumenNegocio>25</VolumenNegocio>
+  </Departamento>
+  <Departamento>
+    <Codigo>T2</Codigo>
+    <Descripcion>T2</Descripcion>
+    <FechaBaja/>
+    <VolumenNegocio>50</VolumenNegocio>
+  </Departamento>
+  <Departamento>
+    <Codigo>T3</Codigo>
+    <Descripcion>T3</Descripcion>
+    <FechaBaja/>
+    <VolumenNegocio>75</VolumenNegocio>
+  </Departamento>
+  <Departamento>
+    <Codigo>TEC</Codigo>
+    <Descripcion>Departamento de Tecnologia</Descripcion>
+    <FechaBaja/>
+    <VolumenNegocio>80</VolumenNegocio>
+  </Departamento>
+</Departamentos>
