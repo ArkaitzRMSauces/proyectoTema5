@@ -4,7 +4,7 @@ require_once('../../config/confDB.php');
 session_start();
 
 if (!isset($_SERVER['PHP_AUTH_USER'])) {
-    header('WWW-Authenticate: Basic realm="Contenido restringido"');
+    header('WWW-Authenticate: Basic realm="Autenticacion incorrecta"');
     header("HTTP/1.0 401 Unauthorized");
     echo "<h3>INICIO DE SESIÓN CANCELADO</h3>";
     echo "<a href='../../indexProyectoTema5.php'><input type='button' name='salir' value='Salir'></a>";
