@@ -16,7 +16,7 @@ if (isset($_POST["detalles"])) {
 }
 ?>
 
-<h3>Usuario aceptado</h3>
+<h3>Autenticacion correcta</h3>
 <form action="<?php ?>" method="post">
     <input type="submit" name="salir" value="Cerrar Sesion">
     <input type="submit" name="detalles" value="Detalle">

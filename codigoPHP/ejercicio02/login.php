@@ -27,7 +27,7 @@ if (!isset($_SERVER['PHP_AUTH_USER'])) {
             $_SESSION['usuarioDAW205'] = $usuario; //te crea la sesion identificado por el usuario
             header('Location: programa.php');
         } else {
-            header('WWW-Authenticate: Basic Realm="Contenido restringido"');
+            header('WWW-Authenticate: Basic Realm="Autenticacion fallida"');
             header('HTTP/1.0 401 Unauthorized');
         }
     } catch (PDOException $mensajeError) { //Cuando se produce una excepcion se corta el programa y salta la excepción con el mensaje de error

@@ -10,7 +10,7 @@ echo "Contraseña: " . $_SERVER['PHP_AUTH_PW'] . "<br>" . "<br>";
 echo "<a href='programa.php'><input type='button' name='volver' value='Volver'></a><br><br>";
 ?>
 
-<h3>$_COOKIE con foreach</h3>
+<h3>$_COOKIE</h3>
 <table border="1">
     <tr>
         <th>Variable</th>
@@ -28,7 +28,7 @@ echo "<a href='programa.php'><input type='button' name='volver' value='Volver'><
     ?>
 </table>
 
-<h3>$_SESSION con foreach</h3>
+<h3>$_SESSION</h3>
 <table border="1">
     <tr>
         <th>Variable</th>
@@ -46,7 +46,7 @@ echo "<a href='programa.php'><input type='button' name='volver' value='Volver'><
     ?>
 </table>
 
-<h3>$_SERVER con foreach</h3>
+<h3>$_SERVER</h3>
 <table border="1">
     <tr>
         <th>Variable</th>
@@ -64,7 +64,7 @@ echo "<a href='programa.php'><input type='button' name='volver' value='Volver'><
     ?>
 </table>
 
-<h3>$_ENV con foreach</h3>
+<h3>$_ENV</h3>
 <table border="1">
     <tr>
         <th>Variable</th>
@@ -82,7 +82,7 @@ echo "<a href='programa.php'><input type='button' name='volver' value='Volver'><
     ?>
 </table>
 
-<h3>$_FILE con foreach</h3>
+<h3>$_FILE</h3>
 <table border="1">
     <tr>
         <th>Variable</th>
